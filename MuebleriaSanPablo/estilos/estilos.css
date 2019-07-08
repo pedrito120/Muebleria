@@ -1,0 +1,120 @@
+
+.header{
+    background-image: url("../imagenes/529826.jpg");
+    padding-bottom: 10px
+}
+.header img{
+    width: 25%;
+}
+.header .buscador{
+    margin-top: 45px;
+}
+.buscador{
+    margin:0px
+}
+div.header row{   
+    margin: 0px;    
+}
+.buscador input{
+    width: 75%;
+    border-radius: 12px;
+}
+.nav ul li {
+    display: inline-block;
+    padding-left: 40px;
+    
+}
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nav ul li a, .nota a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.nav{
+    padding-top: 20px;
+}
+h2{
+    margin-top: 5%;
+    padding-top: 15px
+}
+.sNoticia, .sOfertas, .sFormulario h2, .texto{
+    text-align: center;
+}
+
+.noticias img{
+    width: 60%;
+    padding-top: 20px;
+   padding-bottom: 30px;
+}
+.noticias{
+    float: left;
+    background-color: #FCF3CF;
+    border-radius: 10px;
+    padding:5px;
+    margin-left: 2px;
+}
+.noticias h4{
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.nota{
+    border: 1px solid  #D35400;
+    padding-bottom: 20px;
+}
+.nota a, .texto input{
+    background-color: #D35400;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nota a:hover, .texto input:hover{
+    background-color: #F2F4F4;
+    color: #D35400;
+    transition-duration: 1s
+}
+.sOfertas, .sFormulario{
+    background-color: #FCF3CF;
+     border-radius: 10px
+}
+.oferta{
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+}
+.oferta img{
+    width: 100%;
+    border-radius: 5px
+}
+.form input, .form textarea{
+    border: 1px solid #BA4A00;
+    border-radius: 5px;
+    margin: 10px;
+}
+.texto textarea{
+    width: 70%
+}
+.caja{
+    padding-left: 100px;
+}
+.caja input{
+    width: 70%
+}
+.texto input{
+    width: 15%;
+    color: white
+}
+.footer{
+    background: #6E2C00;
+    text-align: center;
+    color: white;
+}
+.contacto h3, .direccion h3, .correo h3{
+    font-size: 20px;
+    font-weight: 300
+}
+.contacto i{
+  transform: rotate(90deg);
+}
